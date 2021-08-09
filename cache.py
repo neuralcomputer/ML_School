@@ -62,7 +62,7 @@ def cache(cache_path, fn, *args, **kwargs):
         # The cache-file does not exist.
 
         # Call the function / class-init with the supplied arguments.
-	print("- Data will be loaded from outside to:" + cache_path) 
+        print("- Data will be loaded from outside to:" + cache_path) 
         obj = fn(*args, **kwargs)
 
         # Save the data to a cache-file.
